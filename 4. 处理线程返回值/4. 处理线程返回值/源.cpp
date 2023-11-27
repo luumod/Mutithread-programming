@@ -100,7 +100,7 @@ void testPromise() {
 	std::thread t3(static_cast<void(*)(int)>(testGetValueThread), num);
 	t3.join();
 }
-int main() {
+int main1() {
 	testPromise();
 	return 0;
 }

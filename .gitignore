@@ -395,4 +395,15 @@ FodyWeavers.xsd
 *.msp
 
 # JetBrains Rider
-*.sln.iml
+*.sln
+debug
+release
+Debug
+Release
+test
+*.exe
+out
+*.vs
+x64
+x86
+other
